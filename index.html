@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+
+<header>
+<div style="margin-left: 30px;padding: 10px;">
+<img src="logo.jpg" alt="" width="100px">
+<h1 style="font-size: 17px;">Events buddy</h1>
+</div>
+
+<div >
+    <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li onclick="dropdown()">services</li>
+    <li>sign-in/sign-up</li>
+</ul>
+</div>
+</header>
+
+
+<div id="dropdown">
+<ul id="ul1">
+    <li>Ticket booking</li>
+    <li>Event management</li>
+    <li>Hotel booking</li>
+    <li>Cattering</li>
+</ul>
+</div>
+
+<div id="calculator">
+    <h2>simple calculator</h2>
+<div id="screen">
+    
+</div>
+<form action="" style="padding-top: 20px;">
+    <label for="">Enter numbers to calculate</label><br><br>
+    <input type="number" name="" id="num1" placeholder="num1">
+    <input type="number" name="" id="num2" placeholder="num2"><br><br>
+    <button onclick="get(1)" >+</button>
+    <button onclick="get(2)" >-</button>
+    <button onclick="get(3)" >/</button>
+    <button onclick="get(4)" >*</button>
+</form>
+
+</div>
+
+
+<script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to right ,rgb(0, 255, 238), red);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header > div{
+  width: 45%;
+}
+
+ul li{
+    display: inline;
+    margin-right: 50px;
+   
+}
+ul{
+     margin-top: 50px;
+}
+ul > li{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+}
+ul > li:hover{
+    background-color: black;
+    color:white;
+}
+#ul1 li{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: wheat;
+  
+}
+#ul1 {
+    background-color: rgb(26, 24, 24);
+    padding: 20px;
+    margin-top: -19px;
+}
+#screen{
+    height: 100px;
+    background-color: black;
+    color: red;
+}
+#calculator{
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-align: center;
+}
